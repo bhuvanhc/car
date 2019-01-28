@@ -52,6 +52,7 @@ Partial Class Form1
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
         Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,12 +71,13 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.samplecar.My.Resources.Resources.carbeta
-        Me.PictureBox1.Location = New System.Drawing.Point(239, 375)
+        Me.PictureBox1.Location = New System.Drawing.Point(219, 338)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(54, 101)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -93,7 +95,7 @@ Partial Class Form1
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.SystemColors.Info
-        Me.PictureBox5.Location = New System.Drawing.Point(137, 294)
+        Me.PictureBox5.Location = New System.Drawing.Point(149, 294)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(22, 88)
         Me.PictureBox5.TabIndex = 1
@@ -102,7 +104,7 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.SystemColors.Info
-        Me.PictureBox2.Location = New System.Drawing.Point(137, -27)
+        Me.PictureBox2.Location = New System.Drawing.Point(149, -27)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(22, 88)
         Me.PictureBox2.TabIndex = 2
@@ -111,7 +113,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.SystemColors.Info
-        Me.PictureBox3.Location = New System.Drawing.Point(137, 80)
+        Me.PictureBox3.Location = New System.Drawing.Point(149, 80)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(22, 88)
         Me.PictureBox3.TabIndex = 3
@@ -120,7 +122,7 @@ Partial Class Form1
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.SystemColors.Info
-        Me.PictureBox4.Location = New System.Drawing.Point(137, 187)
+        Me.PictureBox4.Location = New System.Drawing.Point(149, 187)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(22, 88)
         Me.PictureBox4.TabIndex = 4
@@ -129,7 +131,7 @@ Partial Class Form1
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.SystemColors.Info
-        Me.PictureBox6.Location = New System.Drawing.Point(137, 401)
+        Me.PictureBox6.Location = New System.Drawing.Point(149, 401)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(22, 88)
         Me.PictureBox6.TabIndex = 9
@@ -275,7 +277,7 @@ Partial Class Form1
         Me.Label3.BackColor = System.Drawing.Color.Silver
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(631, 117)
+        Me.Label3.Location = New System.Drawing.Point(655, 148)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(18, 20)
         Me.Label3.TabIndex = 22
@@ -287,11 +289,11 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.Color.Silver
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(545, 113)
+        Me.Label4.Location = New System.Drawing.Point(531, 143)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 25)
+        Me.Label4.Size = New System.Drawing.Size(118, 25)
         Me.Label4.TabIndex = 23
-        Me.Label4.Text = "Score :"
+        Me.Label4.Text = "Final score :"
         '
         'Timer_Cars
         '
@@ -300,10 +302,10 @@ Partial Class Form1
         'PictureBox16
         '
         Me.PictureBox16.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox16.Image = Global.samplecar.My.Resources.Resources.Speed___copy
+        Me.PictureBox16.Image = Global.samplecar.My.Resources.Resources.cra1
         Me.PictureBox16.Location = New System.Drawing.Point(21, 0)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(100, 117)
+        Me.PictureBox16.Size = New System.Drawing.Size(95, 150)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox16.TabIndex = 24
         Me.PictureBox16.TabStop = False
@@ -311,10 +313,10 @@ Partial Class Form1
         'PictureBox17
         '
         Me.PictureBox17.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox17.Image = Global.samplecar.My.Resources.Resources.Speed___copy
-        Me.PictureBox17.Location = New System.Drawing.Point(208, 0)
+        Me.PictureBox17.Image = Global.samplecar.My.Resources.Resources.cra1
+        Me.PictureBox17.Location = New System.Drawing.Point(219, 0)
         Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(100, 117)
+        Me.PictureBox17.Size = New System.Drawing.Size(90, 150)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox17.TabIndex = 25
         Me.PictureBox17.TabStop = False
@@ -322,13 +324,24 @@ Partial Class Form1
         'PictureBox18
         '
         Me.PictureBox18.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox18.Image = Global.samplecar.My.Resources.Resources.Speed___copy
-        Me.PictureBox18.Location = New System.Drawing.Point(393, 0)
+        Me.PictureBox18.Image = Global.samplecar.My.Resources.Resources.cra1
+        Me.PictureBox18.Location = New System.Drawing.Point(404, 0)
         Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(100, 117)
+        Me.PictureBox18.Size = New System.Drawing.Size(92, 150)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox18.TabIndex = 26
         Me.PictureBox18.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.BackColor = System.Drawing.Color.Silver
+        Me.PictureBox19.Image = Global.samplecar.My.Resources.Resources.Again
+        Me.PictureBox19.Location = New System.Drawing.Point(572, 206)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(100, 69)
+        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox19.TabIndex = 27
+        Me.PictureBox19.TabStop = False
         '
         'Form1
         '
@@ -336,6 +349,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ClientSize = New System.Drawing.Size(715, 488)
+        Me.Controls.Add(Me.PictureBox19)
         Me.Controls.Add(Me.PictureBox18)
         Me.Controls.Add(Me.PictureBox17)
         Me.Controls.Add(Me.PictureBox16)
@@ -359,8 +373,10 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox10)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Car Race"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -379,6 +395,7 @@ Partial Class Form1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -412,5 +429,6 @@ Partial Class Form1
     Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox19 As System.Windows.Forms.PictureBox
 
 End Class

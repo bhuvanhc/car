@@ -7,6 +7,8 @@ Public Class Form1
     Dim Health As Integer
     Dim Cars(2) As PictureBox
     Dim h(2) As PictureBox
+    Dim TimerStartE As Boolean
+    Dim GameOver As Boolean = False
 
 
     Private Sub TimerMoveRight_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TimerMoveRight.Tick
@@ -65,6 +67,9 @@ Public Class Form1
         h(1) = PictureBox14
         h(2) = PictureBox15
 
+        For y = 0 To 2
+            Cars(y).Top = -Int(Rnd() * 500)
+        Next
 
     End Sub
 
@@ -109,7 +114,7 @@ Public Class Form1
                     Timer1.Stop()
                     Move = False
                     Label3.Text = Val(s)
-                    MsgBox("GAME OVER")
+                    MsgBox("Game over")
                     s = 0
                     Health = 0
 
@@ -131,4 +136,29 @@ Public Class Form1
         Next
     End Sub
 
+    Private Sub PictureBox19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox19.Click
+
+        For y = 0 To 2
+            Cars(y).Top = -Int(Rnd() * 500)
+        Next
+
+        TimerStartE = True
+        Timer_Start.Start()
+        Label2.Text = 5
+        PictureBox1.Left = 219
+        PictureBox1.Top = 338
+        Start = 5
+        Timer_Time.Stop()
+        Timer1.Stop()
+        Timer_Cars.Stop()
+        Label2.Visible = True
+        Move = False
+        TimerStartE = False
+        GameOver = False
+
+        h(0).Show()
+        h(1).Show()
+        h(2).Show()
+
+    End Sub
 End Class

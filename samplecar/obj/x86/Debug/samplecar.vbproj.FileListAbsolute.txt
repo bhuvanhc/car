@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\bin\Debug\samplecar.exe
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\bin\Debug\samplecar.pdb
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\bin\Debug\samplecar.xml
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.Form1.resources
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.Resources.resources
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.vbproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.exe
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.xml
+c:\users\admin\documents\visual studio 2010\Projects\samplecar\samplecar\obj\x86\Debug\samplecar.pdb

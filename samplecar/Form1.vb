@@ -144,10 +144,10 @@ Public Class Form1
 
         TimerStartE = True
         Timer_Start.Start()
-        Label2.Text = 5
+        Label2.Text = 3
         PictureBox1.Left = 219
         PictureBox1.Top = 338
-        Start = 5
+        Start = 3
         Timer_Time.Stop()
         Timer1.Stop()
         Timer_Cars.Stop()
